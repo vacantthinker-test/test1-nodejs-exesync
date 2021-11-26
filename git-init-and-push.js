@@ -21,3 +21,11 @@ const queueCmd = [
 queueCmd.forEach(item => execSync(item)) // 使用forEach循环 每次拿到一个字符串, 并使用execSync() 执行该命令
 
 // 使用 node git-init-and-push.js 执行该文件
+
+// $ node git-init-and-push.js // 执行该文件
+// warning: LF will be replaced by CRLF in package-lock.json. // 警告信息 说什么空格问题
+// 	The file will have its original line endings in your working directory
+// To github.com:vacantthinker-test/test1-nodejs-exesync.git //
+// * [new branch]      main -> main // 提交成功！
+
+// 查看浏览器, 可以看到效果
