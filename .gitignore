@@ -1,0 +1,4 @@
+# git提交时要忽略的文件或文件夹
+.idea
+node_modules
+
